@@ -1,0 +1,31 @@
+/* Elements */
+li {
+}
+/* Class */
+.hello {
+}
+
+/* id */
+#special {
+}
+
+/* Star (applies to everything on the page*/
+* {
+  border: 1px solid lightgray;
+}
+/* Descendant Selector (subsets, li's with a tag in them) */
+li a {
+  color: red;
+}
+/* Adjacent Selector (grabs everything after first tag)*/
+h4 + ul {
+  border: 4px solid red;
+}
+/* Attribute Selector (no space after anchor tag, grabs attribute (href, password, email etc.))*/
+a[href="http://www.google.com"] {
+  background: blue;
+}
+/* nth of type */
+div:nth-of-type(3) {
+  background: purple;
+}

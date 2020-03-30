@@ -1,0 +1,12 @@
+li {
+  border: 2px solid red;
+}
+/* Id's to single out specifically */
+#special {
+  background: yellow;
+}
+
+/* Class works like an ID except it works for any number of elements */
+.special {
+  text-decoration: line-through;
+}

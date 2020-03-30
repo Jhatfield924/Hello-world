@@ -1,0 +1,25 @@
+/* elements > classes > Id's > inline */
+
+ul {
+  color: purple;
+}
+
+body {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+li {
+  color: orange;
+}
+
+.highlight {
+  color: yellow;
+}
+
+#special {
+  color: pink;
+}

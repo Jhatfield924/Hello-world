@@ -1,0 +1,39 @@
+/* red octothorp */
+h1 {
+  color: #ff0000;
+  /* border-color: rgba(25, 250, 100, 1);
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 2px solid rgba(100, 20, 60, 1);
+}
+/* green octothorp */
+li {
+  color: #00ff00;
+}
+/* blue octothorp */
+h4 {
+  color: #0000ff;
+}
+/* rgb syntax */
+h1 {
+  color: rgb(240, 200, 100);
+}
+/* transparent colors */
+h1 {
+  color: rgba(240, 0, 100, 0.9);
+}
+/* background */
+h4 {
+  background-color: rgba(255, 100, 50, 1);
+}
+
+body {
+  background-color: rgb(143, 47, 61);
+}
+/* images, no repeats and covers whole page */
+body {
+  /* background-image: url(https://www.babybedding.com/images/fabric/gray-woodgrain-fabric_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
