@@ -1,0 +1,13 @@
+p {
+  /* content - width and height can also do percentages of whatever it is in (in this case it would be 50% of the body)*/
+  width: 50%;
+  height: 250px;
+  /* border */
+  border: 2px solid blue;
+  /* padding */
+  padding: 10px;
+  /* Margin (space between elements)*/
+  /* margin: 5px; */
+  /* margin shortcut margin: top right bottom left */
+  margin: 20px 40px 500px 100px;
+}
