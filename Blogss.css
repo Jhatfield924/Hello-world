@@ -1,0 +1,32 @@
+h2 {
+  color: #2c3e50;
+  margin-left: 5%;
+}
+
+body {
+  width: 60%;
+  border: 20px solid #bdc3c7;
+  margin: auto;
+  font-family: source sans pro;
+}
+
+h3 {
+  color: #3498db;
+  text-transform: uppercase;
+  margin-left: 5%;
+  letter-spacing: 5px;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.indent {
+  border-left: 5px solid #bdc3c7;
+}
+
+hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
