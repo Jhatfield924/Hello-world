@@ -11,12 +11,12 @@
 // }
 
 // version 2
+var flag = true;
 
-var answer = prompt("Are we there yet?");
-
-while (answer.indexOf("yes")) {
-  if (answer.indexOf("yes") > 0) {
-    var answer = prompt("Are we there yet?");
+while (flag) {
+  var answer = prompt("Are we there yet?");
+  if (answer.toLowerCase().includes("yes")) {
+    flag = false;
   }
 }
 
