@@ -107,17 +107,23 @@ function sumArray(arr, id) {
   //   console.log(arr);
 }
 
+var arr1 = [1, 2, 3];
+var arr2 = [2, 5];
 /**
  * Array functions:
  *      splice(index, number) - removes a number of items starting at the position of index
- *      slice(index, number) - creates a new array starting at index and ending at number; Does not mutate old array
  *      forEach()
+ *      findIndex
+ *
+ *
+ *
+ *
  *      filter
+ *      slice(index, number) - creates a new array starting at index and ending at number; Does not mutate old array
  *      some
  *      map
  *      reduce
  *      find
- *      findIndex
  *      sort
  *      includes
  */
